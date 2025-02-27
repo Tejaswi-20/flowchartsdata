@@ -1,0 +1,3 @@
+default,$userdata.firstname,$userdata.lastname,$userdata.email,$userdata.telephone,$userdata.password
+,dev,edv,dev.edv@example.com,7896543201,dev@edv1
+,ved,evd,ved.evd@example.com,7965437180,ved@evd2

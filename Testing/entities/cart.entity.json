@@ -1,0 +1,29 @@
+{
+  "name": "cart",
+  "id": "-1",
+  "type": 1,
+  "content": {
+    "default": {
+      "attr_total_0": {
+        "name": "total",
+        "accessors": [
+          {
+            "id": "acc_textbox_total",
+            "name": "Total Input",
+            "accessor": "_textbox(\"total\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "min": "1750",
+          "max": "1750"
+        },
+        "invalidData": [],
+        "validData": []
+      }
+    }
+  },
+  "enabled": false,
+  "parentId": ""
+}

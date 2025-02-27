@@ -1,0 +1,3 @@
+"default","$userdata.firstname","$userdata.lastname","$userdata.email","$userdata.telephone","$userdata.password"
+"","Abcd","Def","Abcd.def@example.com","7896543211","abcd@def1"
+"","Def","Abc","Def.abc@example.com","7965437190","def@abc2"

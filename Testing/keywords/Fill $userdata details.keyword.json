@@ -1,0 +1,121 @@
+{
+  "name": "Fill $userdata details",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Fill $userdata details",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "userdata_",
+        "entityTypeId": "userdata",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_firstname_0",
+            "accessorId": "acc_textbox_firstname"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_firstname_0"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_lastname_1",
+            "accessorId": "acc_textbox_lastname"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_lastname_1"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_email_2",
+            "accessorId": "acc_emailbox_email"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_email_2"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setValue",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_telephone_3",
+            "accessorId": "acc_telephonebox_telephone"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_telephone_3"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_setPassword",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_password_4",
+            "accessorId": "acc_password_password"
+          },
+          {
+            "paramMode": "default",
+            "parameterId": "userdata_",
+            "attributeId": "attr_password_4"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

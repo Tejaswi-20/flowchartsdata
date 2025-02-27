@@ -1,0 +1,106 @@
+{
+  "name": "Quick Extract",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_quickextract_0"
+        ]
+      },
+      "fcn_quickextract_0": {
+        "id": "fcn_quickextract_0",
+        "content": "Quick Extract",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_registerpage_0"
+        ]
+      },
+      "fcn_registerpage_0": {
+        "id": "fcn_registerpage_0",
+        "content": "Register page",
+        "nodeType": "action",
+        "branches": [
+          "fcn_filluserdatadetails_0"
+        ],
+        "dataSet": {
+          "dataSetName": "userDetails.csv",
+          "dataSetGroupName": "default"
+        },
+        "dataSetBoundary": "datasetstart"
+      },
+      "fcn_filluserdatadetails_0": {
+        "id": "fcn_filluserdatadetails_0",
+        "content": "Fill $userdata details",
+        "nodeType": "action",
+        "branches": [
+          "fcn_verifyuserdatacreated_0"
+        ]
+      },
+      "fcn_verifyuserdatacreated_0": {
+        "id": "fcn_verifyuserdatacreated_0",
+        "content": "Verify $userdata created",
+        "nodeType": "action",
+        "branches": [
+          "fcn_logoutfromapplication_0"
+        ]
+      },
+      "fcn_logoutfromapplication_0": {
+        "id": "fcn_logoutfromapplication_0",
+        "content": "Logout from application",
+        "nodeType": "action",
+        "branches": [],
+        "dataSetBoundary": "datasetend"
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 497.98828125
+      },
+      "fcn_quickextract_0": {
+        "top": 210.0,
+        "left": 497.98828125
+      },
+      "fcn_registerpage_0": {
+        "top": 268.75,
+        "left": 495.9765625
+      },
+      "fcn_filluserdatadetails_0": {
+        "top": 328.48956298828125,
+        "left": 498.9713439941406
+      },
+      "fcn_verifyuserdatacreated_0": {
+        "top": 392.6562,
+        "left": 497.98828125
+      },
+      "fcn_logoutfromapplication_0": {
+        "top": 457.79291875,
+        "left": 497.98828125
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_quickextract_0",
+          "fcn_registerpage_0",
+          "fcn_filluserdatadetails_0",
+          "fcn_verifyuserdatacreated_0",
+          "fcn_logoutfromapplication_0"
+        ],
+        "dependsPathUID": "17405491662910",
+        "dataSet": {},
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_quickextract_0",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Dataset Variable",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_datasetvariable_0"
+        ]
+      },
+      "fcn_datasetvariable_0": {
+        "id": "fcn_datasetvariable_0",
+        "content": "Dataset variable",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_navigatetourl_0"
+        ]
+      },
+      "fcn_navigatetourl_0": {
+        "id": "fcn_navigatetourl_0",
+        "content": "Navigate to url",
+        "nodeType": "action",
+        "branches": [
+          "fcn_login_0"
+        ]
+      },
+      "fcn_addbooks_0": {
+        "id": "fcn_addbooks_0",
+        "content": "Add $books to cart",
+        "nodeType": "action",
+        "branches": [
+          "fcn_verifytotal_0"
+        ],
+        "dataSet": {
+          "dataSetName": "books.csv",
+          "dataSetGroupName": "default"
+        },
+        "dataSetBoundary": "datasetstart"
+      },
+      "fcn_verifytotal_0": {
+        "id": "fcn_verifytotal_0",
+        "content": "Verify $cart total",
+        "nodeType": "action",
+        "branches": [
+          "fcn_logout_0"
+        ],
+        "dataSetBoundary": "datasetend"
+      },
+      "fcn_logout_0": {
+        "id": "fcn_logout_0",
+        "content": "Logout",
+        "nodeType": "action",
+        "branches": []
+      },
+      "fcn_login_0": {
+        "id": "fcn_login_0",
+        "content": "Login",
+        "nodeType": "action",
+        "branches": [
+          "fcn_addbooks_0"
+        ]
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_datasetvariable_0": {
+        "top": 211.6667,
+        "left": 500.0
+      },
+      "fcn_navigatetourl_0": {
+        "top": 269.99995649414063,
+        "left": 500.0
+      },
+      "fcn_addbooks_0": {
+        "top": 387.3046875,
+        "left": 498.99737548828125
+      },
+      "fcn_verifytotal_0": {
+        "top": 445.625,
+        "left": 498.99737548828125
+      },
+      "fcn_logout_0": {
+        "top": 510.7812,
+        "left": 498.99737548828125
+      },
+      "fcn_login_0": {
+        "top": 328.32026899414063,
+        "left": 500.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_datasetvariable_0",
+          "fcn_navigatetourl_0",
+          "fcn_login_0",
+          "fcn_addbooks_0",
+          "fcn_verifytotal_0",
+          "fcn_logout_0"
+        ],
+        "dependsPathUID": "17405636534970",
+        "dataSet": {
+          "dataSetName": "books.csv",
+          "dataSetGroupName": "default"
+        },
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_datasetvariable_0",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}
